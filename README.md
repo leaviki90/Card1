@@ -2,4 +2,4 @@
 
 
 
-[See it live](https://github.com/leaviki90/Card1)
+[See it live](https://leaviki90.github.io/Card1/)
