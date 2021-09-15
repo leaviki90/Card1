@@ -1,110 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* font-family: 'Kumbh Sans', sans-serif; 
+  400, 700
+  
+  */
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    font-size: 14px;
-    
+  font-size: 14px;
 }
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    color: #747474;
-    position: relative; 
-    
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: #747474;
+  position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-size: 18px;
-    color:#373747;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #373747;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-
 
 .container {
-    max-width: 1440px;
-    height: 100vh;
-    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: left -200px top -100px, right -200px bottom -100px;
-    background-size: 400px;
-    
+  height: 100vh;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left -200px top -100px, right -200px bottom -100px;
+  background-size: 400px;
 }
 
-
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .bg-color {
-    background-color: #19a1ad;
+  background-color: #19a1ad;
 }
 
 .profile {
-    padding: 80px 7px 0;
-    background-image: url(images/bg-pattern-card.svg);
-    background-size: contain;
-    background-position: 50% -3%;
-    background-repeat: no-repeat;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 320px;
-    height: 370px;
-    border: 0px solid rgba(0,0,0,0);
-    border-radius: 5%;
-    background-color: white;
+  padding-top: 80px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: contain;
+  background-position: 50% -3%;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 320px;
+  height: 370px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 5%;
+  background-color: white;
 }
 
 .profile img {
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
-    border: 5px solid white;
-    width: 95px;
-    height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  width: 95px;
+  height: auto;
 }
 .profile-name {
-    margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .profile span {
-    padding-left:10px;
-    color: #747474;
-    font-weight: 400;
+  padding-left: 10px;
+  color: #747474;
+  font-weight: 400;
 }
 .profile-location {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 hr {
-    margin-bottom: 25px;
-    color: #747474;
-    opacity: 0.1;
+  margin-bottom: 25px;
+  color: #747474;
+  opacity: 0.1;
 }
 .profile-info {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .profile-info h2 {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 .profile-info a {
-    text-decoration: none;
-    color: #747474;
-    font-size: 12px;
+  text-decoration: none;
+  color: #747474;
+  font-size: 12px;
 }
 .profile-info a:hover {
-    color: #00B6C7;
+  color: #00b6c7;
 }
-
-
-
-
-
